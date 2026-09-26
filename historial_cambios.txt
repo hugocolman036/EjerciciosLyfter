@@ -1,0 +1,25 @@
+HISTORIAL DE CAMBIOS
+
+Commit: Merge pull request #1 from hugocolman036/ejercicios-anteriores
+
+Qué cambió:
+Se integraron en la rama main los ejercicios que estaban almacenados en la rama ejercicios-anteriores.
+
+Por qué:
+Se realizó este cambio para incorporar a la rama principal los ejercicios anteriores del programa de Lyfter.
+
+Commit: Uploading first exercises
+
+Qué cambió:
+Se agregaron al repositorio los ejercicios realizados en IT Essentials, Lógica de Programación y Python Básico.
+
+Por qué:
+Se realizó este cambio para organizar y subir al repositorio los ejercicios realizados durante las unidades anteriores del programa de Lyfter.
+
+Commit: Initial commit
+
+Qué cambió:
+Se creó la versión inicial del repositorio.
+
+Por qué:
+Se realizó este commit para iniciar el repositorio que se utilizará para almacenar y gestionar los ejercicios del programa de Lyfter.
