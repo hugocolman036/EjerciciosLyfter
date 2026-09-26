@@ -1,0 +1,1 @@
+Este es un archivo de prueba para practicar el uso de ramas en Git.
