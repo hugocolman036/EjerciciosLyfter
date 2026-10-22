@@ -1,5 +1,5 @@
 import json
-
+from pathlib import Path
 
 def read_json(filename):
     with open(filename, "r", encoding="utf-8") as file:
@@ -34,8 +34,7 @@ def show_pokemons(filtered_pokemons):
 
 
 if __name__ == "__main__":
-    filename = "/Users/hugocolman/Desktop/PROGRAMACION/FASE 1/UNIDAD 3 PYTHON VSCODE/HOMEWORK 16 JSON/EJERCICIO 2/pokemons.json"
-
+    filename = Path(__file__).resolve().parent.parent / "17 JSON" / "Exercise2" / "pokemons.json"
     pokemons = read_json(filename)
     pokemon_type = get_type()
     filtered_pokemons = filter_pokemons(pokemons, pokemon_type)
