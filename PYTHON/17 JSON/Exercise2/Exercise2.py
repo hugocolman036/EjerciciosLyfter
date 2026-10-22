@@ -1,5 +1,5 @@
 import json
-
+from pathlib import Path
 
 def read_json(filename):
     with open(filename, "r", encoding="utf-8") as file:
@@ -74,7 +74,7 @@ def write_json(filename, pokemons):
 
 
 if __name__ == "__main__":
-    filename = "pokemons.json"
+    filename = Path(__file__).resolve().parent / "pokemons.json"
 
     pokemons = read_json(filename)
     pokemon = get_pokemon()
